@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:textColorTertiary">@color/textColorTertiary</item>
+        <item name="android:windowBackground">@drawable/windowBackground</item>
+        <item name="android:tabWidgetStyle">@style/AppTheme.TabLayout</item>
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+        <item name="android:toolbarStyle">@style/ToolBarStyle</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/textColorPrimary</item>
+        <item name="android:colorBackground">@color/toolbarMenuBackgroundColor</item>
+    </style>
+
+    <style name="ToolbarPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/toolbarMenuTextColor</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+
+    <style name="AppTheme.TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabSelectedTextColor">@color/tabSelectedTextColor</item>
+        <item name="tabTextColor">@color/tabTextColor</item>
+        <item name="tabIndicatorColor">@color/tabIndicatorColor</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:elevation">@dimen/elevation</item>
+    </style>
+
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/toolbarMenuTextColor</item>
+        <item name="android:windowBackground">@color/toolbarMenuBackgroundColor</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <!--<item name="android:windowLightStatusBar" tools:targetApi="m">true</item>-->
+        <item name="android:windowBackground">@drawable/splash_screen_drawable</item>
+        <!--<item name="icon_color">@color/white</item> &lt;!&ndash; to display the icons properly since this theme is the default &ndash;&gt;-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="itemPadding">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/textColorPrimary</item>
+    </style>
+
+    <style name="Toolbar.Expand.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">22sp</item>
+    </style>
+</resources>

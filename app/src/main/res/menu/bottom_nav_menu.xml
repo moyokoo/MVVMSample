@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gank"
+        android:contentDescription="@string/home"
+        android:icon="@drawable/ic_home_hot"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/video"
+        android:contentDescription="@string/video"
+        android:icon="@drawable/ic_home_hot"
+        android:title="@string/video" />
+
+    <item
+        android:id="@+id/girl"
+        android:contentDescription="@string/girl"
+        android:icon="@drawable/ic_home_hot"
+        android:title="@string/girl" />
+
+
+</menu>

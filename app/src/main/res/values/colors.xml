@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#ea80fc</color>
+    <color name="colorPrimaryDark">#b64fc8</color>
+    <color name="colorAccent">#29b6f6</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="textColorSecondary">#000000</color>
+    <color name="textColorTertiary">#BEBEBE</color>
+    <color name="tabSelectedTextColor">#ffffff</color>
+    <color name="tabTextColor">#eeeeee</color>
+    <color name="tabIndicatorColor">#29b6f6</color>
+    <color name="toolbarMenuBackgroundColor">#ffffff</color>
+    <color name="toolbarMenuTextColor">#000000</color>
+
+
+    <color name="error_bg">#fafafa</color>
+    <color name="navigation_color_default">#BEBEBE</color>
+    <color name="navigation_color">#EEEEEE</color>
+    <color name="transparent">#00000000</color>
+    <drawable name="windowBackground">#FFFFFF</drawable>
+
+    <!-- default ripple color for shifting items -->
+    <color name="bbn_shifting_item_ripple_color">#33FFFFFF</color>
+
+    <!-- default ripple color for fixed items -->
+    <color name="bbn_fixed_item_ripple_color">#33000000</color>
+
+    <!-- fixed item inactive color (only alpha will be used) -->
+    <color name="bbn_item_shifting_color_inactive" tools:ignore="UnusedResources">#99000000</color>
+
+    <color name="bbn_topShadowEndColor">#AA000000</color>
+    <color name="bbn_topShadowCenterColor">#66000000</color>
+</resources>

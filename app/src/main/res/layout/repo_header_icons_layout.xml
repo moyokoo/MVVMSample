@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/spacing_normal"
+    android:paddingTop="@dimen/spacing_normal"
+    tools:showIn="@layout/activity_repository">
+
+    <LinearLayout
+        android:id="@+id/watchRepoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:background="?selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <net.android.anko.widgets.ForegroundImageView
+            android:id="@+id/watchRepoImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="8dp"
+            android:src="@drawable/ic_eye" />
+
+        <TextView
+            android:id="@+id/watchRepoTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/textColorPrimary"
+            tools:text="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/starRepoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:background="?selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <net.android.anko.widgets.ForegroundImageView
+            android:id="@+id/starRepoImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:src="@drawable/ic_star" />
+
+        <TextView
+            android:id="@+id/starRepoTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/textColorPrimary"
+            tools:text="1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/forkRepoLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <net.android.anko.widgets.ForegroundImageView
+            android:id="@+id/forkRepoImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:src="@drawable/ic_fork" />
+
+        <TextView
+            android:id="@+id/forkRepoTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/textColorPrimary"
+            tools:text="1" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/profileLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profileIv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            tools:src="@mipmap/ic_launcher" />
+    </FrameLayout>
+
+
+</LinearLayout>

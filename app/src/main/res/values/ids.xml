@@ -1,0 +1,6 @@
+<resources>
+    <item name="emptyLayout" type="id" />
+    <item name="progressLayout" type="id" />
+    <item name="progressBar" type="id" />
+    <item name="swipeRefreshLayout" type="id" />
+</resources>

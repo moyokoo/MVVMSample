@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CodeWebView">
+        <attr name="webview_background" format="color" />
+    </declare-styleable>
+    <declare-styleable name="RecyclerBanner">
+        <attr name="canLoop" format="boolean" />
+        <attr name="orientation" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="PxBlurringView">
+        <attr name="blurRadius" format="integer" />
+        <attr name="downsampleFactor" format="integer" />
+        <attr name="overlayColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="BlurImageView">
+        <attr name="blur_image_view_radius" format="integer" />
+    </declare-styleable>
+</resources>

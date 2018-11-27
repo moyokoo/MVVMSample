@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/spacing_normal"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="@dimen/spacing_normal">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/fileType"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:tint="?android:colorAccent"
+        tools:srcCompat="@drawable/ic_folder" />
+
+    <TextView
+        android:id="@+id/fileName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fileSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="16sp" />
+
+</LinearLayout>

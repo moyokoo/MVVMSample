@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <net.android.anko.widgets.webview.CodeWebView
+            android:id="@+id/codeWebView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:webview_background="@color/md_white_1000" />
+
+        <ProgressBar
+            android:id="@+id/readmeLoader"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:indeterminate="true"
+            android:paddingEnd="@dimen/spacing_large"
+            android:paddingStart="@dimen/spacing_large" />
+    </FrameLayout>
+</android.support.v4.widget.NestedScrollView>

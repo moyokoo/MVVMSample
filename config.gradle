@@ -1,0 +1,53 @@
+ext {
+    android = [
+            appModuleApplicationId: "net.android.anko",
+
+            compileSdkVersion     : 27,
+            buildToolsVersion     : "27.0.3",
+            minSdkVersion         : 21,
+            targetSdkVersion      : 27,
+
+            versionCode           : 1,
+            versionName           : "1.0.0",
+
+            testRunner            : "android.support.test.runner.AndroidJUnitRunner"
+    ]
+
+    dependencies = [
+            junit                   : 'junit:junit:4.12',
+            testRunner_version      : 'com.android.support.test:runner:1.0.2',
+            test_espresso_core      : 'com.android.support.test.espresso:espresso-core:3.0.2',
+            kalle                   : 'com.yanzhenjie:kalle:0.1.3',
+            okalle                  : 'com.yanzhenjie:okalle:0.1.3',
+            AUtil                   : 'com.github.miaoyongjun:AUtils:1.0.2',
+
+            rxandroid               : 'io.reactivex.rxjava2:rxandroid:2.0.1',
+            rxjava                  : 'io.reactivex.rxjava2:rxjava:2.1.3',
+            gson                    : 'com.google.code.gson:gson:2.8.1',
+            retrofit2_converter_gson: 'com.squareup.retrofit2:converter-gson:2.4.0',
+            retrofit2_adapter_rxjav2: 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0',
+            retrofit                : 'com.squareup.retrofit2:retrofit:2.4.0',
+
+            multidex                : 'com.android.support:multidex:1.0.3',
+            appCompat               : 'com.android.support:appcompat-v7:27.1.1',
+            design                  : 'com.android.support:design:27.1.1',
+            cardView                : 'com.android.support:cardview-v7:27.1.1',
+            customtabs              : 'com.android.support:customtabs:27.1.1',
+
+            glide                   : 'com.github.bumptech.glide:glide:4.7.1',
+            glide_compile           : 'com.github.bumptech.glide:compiler:4.7.1',
+            materialish_progress    : 'com.pnikosis:materialish-progress:1.7',
+    ]
+
+
+    plugins = [
+            comgradle                : 'com.dd.comgradle',
+            kotlin_android           : 'kotlin-android',
+            kotlin_kapt              : 'kotlin-kapt',
+            kotlin_android_extensions: 'kotlin-android-extensions',
+            library                  : 'com.android.library',
+            android                  : 'com.android.application',
+            maven                    : 'com.github.dcendents.android-maven',
+            bintray                  : 'com.jfrog.bintray',
+    ]
+}

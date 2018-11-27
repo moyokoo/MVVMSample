@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_names" translatable="false">
+        <item>全部</item>
+        <item>Android</item>
+        <item>iOS</item>
+        <item>拓展资源</item>
+        <item>前端</item>
+        <item>瞎推荐</item>
+        <item>App</item>
+    </string-array>
+    <string-array name="gank_type_name" translatable="false">
+        <item>all</item>
+        <item>Android</item>
+        <item>iOS</item>
+        <item>拓展资源</item>
+        <item>前端</item>
+        <item>瞎推荐</item>
+        <item>App</item>
+    </string-array>
+    <integer-array name="drawer_icon" translatable="false">
+        <item>@drawable/ic_gank_all</item>
+        <item>@drawable/ic_gank_android</item>
+        <item>@drawable/ic_gank_ios</item>
+        <item>@drawable/ic_gank_tools</item>
+        <item>@drawable/ic_gank_js</item>
+        <item>@drawable/ic_gank_suggest</item>
+        <item>@drawable/ic_gank_app</item>
+    </integer-array>
+
+    <string-array name="repository_names" translatable="false">
+        <item>README</item>
+        <!--<item>介绍</item>-->
+        <item>文件</item>
+    </string-array>
+
+    <string-array name="profile_names_github" translatable="false">
+        <item>STAR</item>
+        <!--<item>介绍</item>-->
+        <item>REPOSITORY</item>
+    </string-array>
+
+</resources>

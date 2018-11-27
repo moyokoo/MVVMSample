@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.android.anko.widgets.JacquelineBottomNavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomNavigationView"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_navigation_height"
+    android:layout_gravity="bottom"
+    android:background="@color/navigation_color"
+    app:itemIconTint="@color/navigation_item_tint"
+    app:itemTextColor="@color/navigation_item_tint"
+    app:layout_behavior="@string/bottom_navigation_behavior"
+    app:menu="@menu/bottom_nav_menu" />

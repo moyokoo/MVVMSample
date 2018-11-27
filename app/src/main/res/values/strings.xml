@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Anko</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="scroll_behavior" translatable="false">@string/appbar_scrolling_view_behavior</string>
+    <string name="bottom_navigation_behavior" translatable="false">net.android.anko.widgets.BottomNavigationBehavior</string>
+
+    <string name="just_now">just now</string>
+    <string name="seconds_ago">seconds ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="days_ago">days ago</string>
+
+    <string name="cancel">否</string>
+    <string name="ok">是</string>
+    <string name="share">分享</string>
+
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login_need_name_and_pwd">请输入用户名或密码</string>
+
+
+    <!--web-->
+    <string name="invalid_url">链接失效,请重试</string>
+    <string name="share_to">未安装邮件客户端</string>
+    <string name="no_share_clients">未安装分享软件</string>
+    <string name="copy_url">复制链接</string>
+    <string name="login_in_browser">在浏览器中登录</string>
+    <string name="oauth_tip">使用您的默认浏览器登录(OAuth)</string>
+
+    <string name="retry">重试</string>
+
+    <string name="home">Gank</string>
+    <string name="video">Video</string>
+    <string name="girl">Girl</string>
+
+    <string name="in_progress">加载中, 请稍候···</string>
+    <string name="network_error">与服务器通信时发生错误</string>
+    <string name="unexpected_error">调用 API 时出现意外错误</string>
+    <string name="request_error">请求服务器发生错误, 请稍后再试</string>
+    <string name="downloading_file">下载文件中…</string>
+    <string name="success_copied">已复制</string>
+    <string name="error">错误</string>
+    <string name="unauthorized_user">请先授权</string>
+
+
+    <!-- Image -->
+    <string name="save">保存到手机</string>
+
+
+    <!--error-->
+    <string name="no_net">未连接到互联网</string>
+    <string name="no_net_sub">检查移动数据或 WLAN 网络连接状况,或者让系统在恢复连接时通知您</string>
+    <string name="no_data">暂无数据</string>
+    <string name="no_net_notify">我们会在网络连接回复正常时通知您</string>
+
+    <!--viewer-->
+    <string name="open_in_browser">在浏览器中打开</string>
+    <string name="wrap_lines">自动换行</string>
+    <string name="refresh">刷新</string>
+    <string name="download">下载</string>
+    <string name="view_file">查看文件</string>
+    <string name="view_archive_file_error">文件不支持，请下载后查看。</string>
+    <string name="branch_choose">选择分支</string>
+
+    <!--profile-->
+    <string name="profile_follower">follower</string>
+    <string name="profile_following">following</string>
+    <string name="profile_repo">Repository</string>
+
+
+    <string name="longName">
+        YouTube, LLC is an American video-sharing website headquartered in San Bruno, California.\n
+        Three former PayPal employees—Chad Hurley, Steve Chen, and Jawed Karim—created the service in February 2005.\n
+        Google bought the site in November 2006 for US$1.65 billion; YouTube now operates as one of Google\'s subsidiaries.\n\n
+        YouTube allows users to upload, view, rate, share, add to favorites, report, comment on videos, and subscribe to other users.\n
+        It offers a wide variety of user-generated and corporate media videos.\n
+        Available content includes video clips, TV show clips, music videos, short and documentary films, audio recordings, movie trailers, live streams, and other content such as video blogging, short original videos, and educational videos.\n\n
+        Most of the content on YouTube is uploaded by individuals, but media corporations including CBS, the BBC, Vevo, and Hulu offer some of their material via YouTube as part of the YouTube partnership program.\n\n
+        Unregistered users can only watch videos on the site, while registered users are permitted to upload an unlimited number of videos and add comments to videos.\n\n
+        Videos deemed potentially inappropriate are available only to registered users affirming themselves to be at least 18 years old.\n
+    </string>
+</resources>
